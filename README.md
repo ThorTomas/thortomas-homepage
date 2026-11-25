@@ -39,6 +39,11 @@ $PROJECT_ROOT
 
 MIT License.
 
-Based on [Takuya Matsuyama's homepage](https://github.com/craftzdog/craftzdog-homepage), inspired also by [Martin Křivda's homepage](https://www.martinkrivda.cz/). The 3D scene is original.
+Based on [Takuya Matsuyama's homepage](https://github.com/craftzdog/craftzdog-homepage), inspired also by [Martin Křivda's homepage](https://www.martinkrivda.cz/).
 
-If you fork this project, keep a link to [Takuya's homepage](https://www.craftz.dog/) as the original license requires. See [LICENSE](./LICENSE) for details.
+You can create your own homepage for free by forking this project under the following conditions:
+
+- Add a link to [Takuya's homepage](https://www.craftz.dog/), as the original license requires
+- Do not use my 3D scene (the optical bench with the hammer in `components/scenes`)
+
+Check out [LICENSE](./LICENSE) for more detail.

@@ -1,5 +1,7 @@
 This website is a fork of Takuya Matsuyama's homepage (https://github.com/craftzdog/craftzdog-homepage).
-The original voxel dog model is not used here. The 3D scenes in components/scenes are original work.
+The original voxel dog model is not used here.
+The 3D scene in components/scenes (the optical bench with the hammer) is my own work and is not
+covered by the license below: do not use it in your project.
 
 You can create your own website for free without notifying me by forking this project under the following condition:
  - Attribution: You must give appropriate credit, provide a link to my homepage (https://www.craftz.dog/).
