@@ -21,7 +21,7 @@ import LangToggleButton from './lang-toggle-button'
 import { IoLogoGithub } from 'react-icons/io5'
 import { useI18n } from '../lib/i18n'
 
-export const SOURCE_URL = 'https://github.com/ThorTomas'
+export const SOURCE_URL = 'https://github.com/ThorTomas/thortomas_web'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href || path === `${href}/`
