@@ -32,7 +32,9 @@ $PROJECT_ROOT
 │   # Texts in English and Czech, theme
 ├── lib
 │   # Static files (images, icons)
-└── public
+├── public
+│   # Favicon variants (SVG and PNG)
+└── design
 ```
 
 ## License
