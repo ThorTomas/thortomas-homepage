@@ -1,45 +1,44 @@
-# thortomas.cz – osobní web
+# Tomáš Thoř's Homepage
 
-Osobní stránka Tomáše Thoře. Next.js (React) + Chakra UI + framer-motion + three.js.
-Vychází z webu [Takuyi Matsuyamy](https://www.craftz.dog/) (fork [craftzdog-homepage](https://github.com/craftzdog/craftzdog-homepage)); uznání autora je v patičce a musí tam zůstat (podmínka licence, viz `LICENSE`).
+[https://thortomas.cz](https://thortomas.cz) (coming soon)
 
-## Spuštění na počítači
+## Stack
 
-Potřebuješ [Node.js](https://nodejs.org/) 20 nebo novější. V PowerShellu v této složce:
+- [Next.js](https://nextjs.org/) - React framework, exported as a static site
+- [Chakra UI](https://chakra-ui.com/) - Component library for React
+- [Three.js](https://threejs.org/) - 3D library for JavaScript
+- [Framer Motion](https://www.framer.com/motion/) - Animation library for React
+
+## Getting started
+
+Requires Node.js 20 or newer.
 
 ```
 npm install
-npm run dev
+npm run dev     # development server at http://localhost:3000
+npm run build   # static export to ./out
 ```
 
-Web pak běží na http://localhost:3000 a po uložení souboru se sám obnoví.
-
-## Sestavení pro server
+## Project structure
 
 ```
-npm run build
+$PROJECT_ROOT
+│   # Page files
+├── pages
+│   # React components
+├── components
+│   │   # 3D scene (laser beam path charging a small hammer)
+│   └── scenes
+│   # Texts in English and Czech, theme
+├── lib
+│   # Static files (images, icons)
+└── public
 ```
 
-Vytvoří složku `out/` s obyčejnými statickými soubory (HTML, JS, obrázky). Tu stačí nahrát na server a servírovat jakýmkoli webserverem (Caddy, nginx), není potřeba Node. Náhled sestavené verze: `npm run preview`.
+## License
 
-## Kde co je
+MIT License.
 
-| Co chci změnit | Soubor |
-| --- | --- |
-| Texty (česky i anglicky) | `lib/i18n.js` |
-| Pořadí a skladba sekcí na úvodní stránce, odkazy na sítě | `pages/index.js` |
-| Projekty v portfoliu (pole `works`, zatím prázdné) | `pages/works.js` |
-| Menu, odkaz Zdroj (`SOURCE_URL`) | `components/navbar.js` |
-| Barvy a písmo | `lib/theme.js` |
-| 3D scéna: optická sestava s malým Mjölnirem | `components/scenes/optical-bench.js` |
-| Model kladiva | `components/scenes/hammer.js` |
-| Plátno a kamera | `components/hero-scene.js` |
-| Profilová fotka | `public/images/tomas.jpg` (originál: `profile_img.jpeg`) |
+Based on [Takuya Matsuyama's homepage](https://github.com/craftzdog/craftzdog-homepage), inspired also by [Martin Křivda's homepage](https://www.martinkrivda.cz/). The 3D scene is original and does not use the voxel dog model.
 
-Adresa s `?lang=cs` nebo `?lang=en` otevře web v konkrétním jazyce.
-
-## Co zbývá
-
-- Zdrojový kód: https://github.com/ThorTomas/thortomas_web
-- Zkontrolovat texty v `lib/i18n.js`, hlavně české názvy studijních programů a předmětu.
-- Nasazení na server `farm` přes Cloudflare Tunnel.
+If you fork this project, keep a link to [Takuya's homepage](https://www.craftz.dog/) as the original license requires. See [LICENSE](./LICENSE) for details.
