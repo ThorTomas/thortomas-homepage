@@ -31,18 +31,15 @@ Vytvoří složku `out/` s obyčejnými statickými soubory (HTML, JS, obrázky)
 | Projekty v portfoliu (pole `works`, zatím prázdné) | `pages/works.js` |
 | Menu, odkaz Zdroj (`SOURCE_URL`) | `components/navbar.js` |
 | Barvy a písmo | `lib/theme.js` |
-| 3D scéna optická sestava s malým Mjölnirem (výchozí) | `components/scenes/optical-bench.js` |
-| Model kladiva (sdílený oběma scénami) | `components/scenes/hammer.js` |
-| 3D scéna laser a kámen | `components/scenes/laser-rock.js` |
-| 3D scéna Mjölnir | `components/scenes/mjolnir.js` |
-| Plátno, kamera, přepínač scén | `components/hero-scene.js` |
+| 3D scéna: optická sestava s malým Mjölnirem | `components/scenes/optical-bench.js` |
+| Model kladiva | `components/scenes/hammer.js` |
+| Plátno a kamera | `components/hero-scene.js` |
 | Profilová fotka | `public/images/tomas.jpg` (originál: `profile_img.jpeg`) |
 
-Adresa s `?scene=optics`, `?scene=laser` nebo `?scene=mjolnir` otevře konkrétní scénu, `?lang=cs` nebo `?lang=en` konkrétní jazyk.
+Adresa s `?lang=cs` nebo `?lang=en` otevře web v konkrétním jazyce.
 
 ## Co zbývá
 
-- Vybrat jednu ze tří 3D scén (nebo nechat přepínač).
-- Odkaz Zdroj zatím vede na profil github.com/ThorTomas; po založení repozitáře změnit `SOURCE_URL`.
+- Zdrojový kód: https://github.com/ThorTomas/thortomas_web
 - Zkontrolovat texty v `lib/i18n.js`, hlavně české názvy studijních programů a předmětu.
 - Nasazení na server `farm` přes Cloudflare Tunnel.
