@@ -39,6 +39,6 @@ $PROJECT_ROOT
 
 MIT License.
 
-Based on [Takuya Matsuyama's homepage](https://github.com/craftzdog/craftzdog-homepage), inspired also by [Martin Křivda's homepage](https://www.martinkrivda.cz/). The 3D scene is original and does not use the voxel dog model.
+Based on [Takuya Matsuyama's homepage](https://github.com/craftzdog/craftzdog-homepage), inspired also by [Martin Křivda's homepage](https://www.martinkrivda.cz/). The 3D scene is original.
 
 If you fork this project, keep a link to [Takuya's homepage](https://www.craftz.dog/) as the original license requires. See [LICENSE](./LICENSE) for details.
